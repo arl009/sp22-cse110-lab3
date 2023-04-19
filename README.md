@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://arl009.github.io/Lab2_Starter/
+# Lab 3
+https://arl009.github.io/sp22-cse110-lab3/
