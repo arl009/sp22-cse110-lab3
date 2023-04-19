@@ -2,8 +2,8 @@
 name: Feature request
 about: Style meeting minutes
 title: ''
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: arl009
 
 ---
 
