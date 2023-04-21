@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
     <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="stylesheet" href="styles.css" />
     <title>Meeting Minutes</title>
   </head>
   <body>
@@ -19,39 +20,56 @@
         <h3>4/12/2023</h3>
     </header>
     <main>
-        <section>
+        <section class="boxPadding4">
             <h2><i>Attendance</i></h2>
-            <ul>
+            <ul class="ems">
                 <li><b>Andric</b></li>
                 <li>Bandric</li>
                 <li>Candric</li>
             </ul>
+
+            <ul class="grid">
+                <li>Dandric</li>
+                <li>Fandric</li>
+                <li>Eandric</li>
+                <li>Fandric</li>
+                <li>Fandric</li>
+                <li id="highlight">Fandric</li>
+                <li>Fandric</li>
+                <li>Fandric</li>
+                <li>Fandric</li>
+            </ul>
         </section>
         <hr>
-        <section>
+        <section  class="boxPadding3">
             <h2><em>Agenda</em></h2>
-            <ol>
-                <li><strong>Planning</strong></li>
+            <ol class="rems">
+                <li><strong class="hi">Planning</strong></li>
                 <li><span>User</span> Stories</li>
                 <li>Timeline</li>
+                <ul>
+                    <li><b>Andric</b></li>
+                    <li>Bandric</li>
+                    <li>Candric</li>
+                </ul>
             </ol>
         </section>
         <hr>
-        <div>
+        <div class="boxPadding1">
             <h2><em>Unfinished things from last meeting</em></h2>
-            <ol>
+            <ol class="vw">
                 <li>Planning</li>
             </ol>
         </div>
         <hr>
-        <div>
+        <div class="boxPadding2">
             <h2><em>New business for this meeting</em></h2>
             <ol>
                 <li>Cute cats</li>
             </ol>
         </div>
         <hr>
-        <section>
+        <section class="sticy">
             <h2><em>Miscellaneous Comments</em></h2>
             <p>Cat photo</p>
             <img width="250" alt="cat" src="/images/cat.jpg">
@@ -80,12 +98,14 @@
         <hr>
         <section>
             <h2><em>Forms</em></h2>
-            <form action="/action_page.php" method="get">
-                <fieldset>
+            <form method="get">
+                <fieldset class="flex">
                     <input type="radio" id="option1" name="options" value="A">
                     <label for="option1">option1</label><br>
                     <input type="radio" id="option2" name="options" value="B">
                     <label for="option2">option2</label><br>
+                    <input type="radio" id="option3" name="options" value="C">
+                    <label for="option3">option3</label><br>
                   </fieldset>
                   <textarea id="textarea" name="textarea" rows="3" cols="20">Fill in here</textarea>
             </form>
