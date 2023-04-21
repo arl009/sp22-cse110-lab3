@@ -1,0 +1,128 @@
+* {
+    background-color: blanchedalmond;
+}
+
+a[href^="https"]{
+    color: orange;
+}
+
+strong.hi {
+    color: rgb(0, 76, 0);
+    font-size: 20pt;
+    text-decoration: underline blue;
+}
+em {
+    color: #006500;
+    font-size: 1cm;
+}
+h1 {
+    color: hsl(96, 100%, 22%);
+    font-size: 20mm;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+h3, h2 {
+    color: orange;
+}
+
+section > p {
+    font-family: 'Comic Neue', cursive;
+}
+
+h2 + h3 {
+    font-family: 'Comic Neue', cursive;
+    color: red;
+}
+
+h2 ~ h3{
+    font-family: 'Comic Neue', cursive;
+}
+
+#highlight {
+    background-color: yellow;
+}
+
+.ems li {
+  font-size: 2em;
+}
+  
+.rems li {
+  font-size: 1.5rem;
+}
+
+.vw li {
+    font-size: 2vw;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+.boxPadding1 {
+    padding-top: 100px;
+    border-style:dashed;
+    border-color: lightblue;
+    border-width: 2px;
+    border-radius: 1px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.boxPadding2 {
+    padding: 50px 0px 0px 0px;
+    border-style:dashed;
+    border-color: pink;
+    width: 50%;
+    border-width: 2px;
+    border-radius: 1px;
+    margin: 0px 0px 100px 0px;
+    display: block;
+}
+.boxPadding3 {
+    padding: 0px 0px 0px 0px;
+    border-style:dashed;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 1px;
+    margin: auto;
+}
+.boxPadding4 {
+    height: 300px;
+    max-width: 500px;
+    min-width: 100px;
+    border-style:groove;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 1px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.sticy {
+    position: sticky;
+    top: 20px;
+}
+h1:hover {
+    color: red;
+}
+h1:active {
+    color: brown;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 200px 100px 50px;
+    grid-template-rows: 10px 50px 0px; 
+    grid-gap: 10px;
+}
+
+@media (max-width: 1250px) {
+    main {
+        background-color: purple;
+    }
+}
